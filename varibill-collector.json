@@ -2,7 +2,7 @@
     "id":  "DemoRepo",
     "name":  "Demo Repo Collector",
     "vendorName":  "Varibill",
-    "version":  "1.0.0",
+    "version":  "1.1.0",
     "description":  "Generates sample rated and unrated records. Use it to test publishing and running a collector.",
     "ratingModel":  "Hybrid",
     "collectionBehavior":  "PointInTime",
