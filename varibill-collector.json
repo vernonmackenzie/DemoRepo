@@ -1,0 +1,14 @@
+{
+    "id":  "DemoRepo",
+    "name":  "Demo Repo Collector",
+    "vendorName":  "Varibill",
+    "version":  "1.0.0",
+    "description":  "Generates sample rated and unrated records. Use it to test publishing and running a collector.",
+    "ratingModel":  "Hybrid",
+    "collectionBehavior":  "PointInTime",
+    "entryPoint":  "RatedAndUnratedSourceCollectorDemo.ps1",
+    "containerImage":  "ubuntu.24.04-powershell.default",
+    "allowUpload":  false,
+    "parameters":  "Parameters.xml",
+    "parameterSchema":  "ParameterSchema.xml"
+}
