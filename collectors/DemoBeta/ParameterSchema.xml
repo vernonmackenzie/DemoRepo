@@ -1,0 +1,9 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Parameters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RowCount" type="xs:integer" minimum="1" maximum="50000" displayName="Number of rows" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

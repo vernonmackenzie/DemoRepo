@@ -80,5 +80,4 @@ Write-Verbose "Saving and posting rated data..."
 $rated.SaveData()
 $rated.PostSourceData()
 
-Write-Host "[1.1.0] Completed sending $RowCount unrated + $RowCount rated records."
-
+Write-Host "Completed sending $RowCount unrated + $RowCount rated records."
